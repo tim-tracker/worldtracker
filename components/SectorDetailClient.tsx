@@ -55,7 +55,7 @@ export function SectorDetailClient({ sector }: Props) {
       </div>
 
       {/* Chart */}
-      <div className="w-full" style={{ minHeight: '60vh' }}>
+      <div className="w-full" style={{ height: '60vh' }}>
         <CountryLineChart data={chartData} selectedCountry={selectedCountry} />
       </div>
 

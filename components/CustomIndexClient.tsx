@@ -123,7 +123,7 @@ export function CustomIndexClient() {
           House Index with Custom Weightings
         </h2>
       </div>
-      <div className="w-full" style={{ minHeight: '60vh' }}>
+      <div className="w-full" style={{ height: '60vh' }}>
         <CountryLineChart data={chartData} selectedCountry={selectedCountry} />
       </div>
       <div className="flex flex-wrap gap-4 mt-3 justify-center">
